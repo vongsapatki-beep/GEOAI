@@ -1,0 +1,65 @@
+﻿หมวด,ดาวเทียม/เซนเซอร์,Mode,รายละเอียดภาพ,Polarization,ราคาในคลัง (Archive),ราคาสั่งถ่าย (Tasking),หน่วย,หมายเหตุ
+ออปติคอล: รายละเอียดสูงมาก (30–50 ซม.),Pléiades NEO,,30 cm.,,880,"1,270",บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูงมาก (30–50 ซม.),WorldView-4,,30 cm.,,920,"1,560",บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูงมาก (30–50 ซม.),SuperView-2,,42 cm.,,700,"1,100",บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูงมาก (30–50 ซม.),WorldView-1,,50 cm.,,700,"1,100",บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูงมาก (30–50 ซม.),WorldView-2,,50 cm.,,700,"1,100",บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูงมาก (30–50 ซม.),WorldView-3,,50 cm.,,700,"1,100",บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูงมาก (30–50 ซม.),GeoEye-1,,50 cm.,,700,"1,100",บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูงมาก (30–50 ซม.),Pléiades,,50 cm.,,490,830,บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูงมาก (30–50 ซม.),EarthScanner,,50 cm.,,400,800,บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูงมาก (30–50 ซม.),SuperView-1,,50 cm.,,500,900,บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูงมาก (30–50 ซม.),KOMPSAT-3,,50 cm.,,400,700,บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูงมาก (30–50 ซม.),SKYSAT,,50 cm.,,300,560,บาท/ตร.กม.,"สั่งขั้นต่ำ 1,250 ตร.กม.; สั่งถ่ายโปรดติดต่อเจ้าหน้าที่; เข้าดูผ่าน API/Explorer"
+ออปติคอล: รายละเอียดสูง (60 ซม.–2 ม.),QuickBird,,60 cm.,,700,N/A,บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูง (60 ซม.–2 ม.),GaoFen-7,,65 cm.,,400,700,บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูง (60 ซม.–2 ม.),Jilin,,75 cm.,,300,600,บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูง (60 ซม.–2 ม.),DailyVision,,75 cm.,,300,600,บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูง (60 ซม.–2 ม.),GaoFen-2,,80 cm.,,300,400,บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: รายละเอียดสูง (60 ซม.–2 ม.),IKONOS,,1 m.,,400,N/A,บาท/ตร.กม.,"สั่งขั้นต่ำ: ในคลัง 25 ตร.กม./สั่งถ่าย 100 ตร.กม.; level Primary (PAN, MS, Pansharpened)"
+ออปติคอล: วิดีโอ/กลางคืน,Video Constellation,,1 m.,,"142,500","285,000",บาท/30 วินาที,ถ่ายวิดีโอ/ภาพกลางคืน; แต่ละช่วงจำกัด 30 วินาที; สั่งขั้นต่ำ 100 ตร.กม.; แนวถ่าย ≥5 กม.
+ออปติคอล: วิดีโอ/กลางคืน,Night Imaging,,1 m.,,800,"1,400",บาท/ตร.กม.,ถ่ายภาพกลางคืน; สั่งขั้นต่ำ 100 ตร.กม.; แนวถ่าย ≥5 กม.
+ออปติคอล: SPOT (รายละเอียดสูง),SPOT-6,,1.5 m.,,190,230,บาท/ตร.กม.,สั่งขั้นต่ำ: ในคลัง 100 ตร.กม./สั่งถ่าย 500 ตร.กม.
+ออปติคอล: SPOT (รายละเอียดสูง),SPOT-7,,1.5 m.,,190,230,บาท/ตร.กม.,สั่งขั้นต่ำ: ในคลัง 100 ตร.กม./สั่งถ่าย 500 ตร.กม.
+ออปติคอล: ไทยโชต (THEOS),ไทยโชต,,2 m.,,700,"6,500",บาท/ภาพ,ราคาที่ผ่าน Orthorectification แล้ว 910 บาท/ภาพ
+ออปติคอล: รายละเอียดปานกลาง (LANDSAT),LANDSAT-5,,30 m.,,150,N/A,บาท/ภาพ,"Level 1T, 7 Bands; คิดเฉพาะค่าดำเนินการผลิตจากคลัง"
+ออปติคอล: รายละเอียดปานกลาง (LANDSAT),LANDSAT-7,,30 m.,,150,N/A,บาท/ภาพ,"Level 1T, 8 Bands; คิดเฉพาะค่าดำเนินการผลิตจากคลัง"
+ออปติคอล: รายละเอียดปานกลาง (LANDSAT),LANDSAT-8,,30 m.,,150,N/A,บาท/ภาพ,"Level 1T, 11 Bands; คิดเฉพาะค่าดำเนินการผลิตจากคลัง; ถ้าให้ สทอภ. ดาวน์โหลด คิดค่าดำเนินการ 150 บาท/ภาพ"
+ออปติคอล: รายละเอียดปานกลาง (LANDSAT),LANDSAT-9,,30 m.,,150,N/A,บาท/ภาพ,"Level 1T, 11 Bands; คิดเฉพาะค่าดำเนินการผลิตจากคลัง; ถ้าให้ สทอภ. ดาวน์โหลด คิดค่าดำเนินการ 150 บาท/ภาพ"
+ออปติคอล: PLANETSCOPE,PLANETSCOPE,,3 m.,,180,240,บาท/ตร.กม./ปี,Access+Download; ราคาสั่งถ่าย = การติดตาม (Monitoring); สั่งขั้นต่ำ 100 ตร.กม.; สัญญา 1 ปี; ผ่าน Planet Explorer/API/Desktop GIS
+เรดาร์: RADARSAT-2 (C band),RADARSAT-2,Standard,25 m.,,"57,600","57,600",บาท/ภาพ,ราคาในคลัง = Single Look complex; ราคาสั่งถ่าย = Path Image
+เรดาร์: RADARSAT-2 (C band),RADARSAT-2,Spotlight A,1 m.,,"134,400","134,400",บาท/ภาพ,ราคาในคลัง = Single Look complex; ราคาสั่งถ่าย = Path Image
+เรดาร์: RADARSAT-2 (C band),RADARSAT-2,Utra-Fine,3 m.,,"86,400","86,400",บาท/ภาพ,ราคาในคลัง = Single Look complex; ราคาสั่งถ่าย = Path Image
+เรดาร์: RADARSAT-2 (C band),RADARSAT-2,Wide Utra-Fine,3 m.,,"124,800","124,800",บาท/ภาพ,ราคาในคลัง = Single Look complex; ราคาสั่งถ่าย = Path Image
+เรดาร์: RADARSAT-2 (C band),RADARSAT-2,Multi-Look Fine,8 m.,,"67,200","67,200",บาท/ภาพ,ราคาในคลัง = Single Look complex; ราคาสั่งถ่าย = Path Image
+เรดาร์: RADARSAT-2 (C band),RADARSAT-2,Wide Multi-Look Fine,8 m.,,"120,000","120,000",บาท/ภาพ,ราคาในคลัง = Single Look complex; ราคาสั่งถ่าย = Path Image
+เรดาร์: RADARSAT-2 (C band),RADARSAT-2,Fine,8 m.,,"57,600","57,600",บาท/ภาพ,ราคาในคลัง = Single Look complex; ราคาสั่งถ่าย = Path Image
+เรดาร์: RADARSAT-2 (C band),RADARSAT-2,Wide,30 m.,,"57,600","57,600",บาท/ภาพ,ราคาในคลัง = Single Look complex; ราคาสั่งถ่าย = Path Image
+เรดาร์: RADARSAT-2 (C band),RADARSAT-2,ScanSAR Narrow,50 m.,,N/A,"57,600",บาท/ภาพ,ราคาในคลัง = Single Look complex; ราคาสั่งถ่าย = Path Image
+เรดาร์: RADARSAT-2 (C band),RADARSAT-2,ScanSAR Wide,100 m.,,N/A,"57,600",บาท/ภาพ,ราคาในคลัง = Single Look complex; ราคาสั่งถ่าย = Path Image
+เรดาร์: RADARSAT-2 (C band),RADARSAT-2,"Extended High, Low",25 m.,,"57,600","57,600",บาท/ภาพ,ราคาในคลัง = Single Look complex; ราคาสั่งถ่าย = Path Image
+เรดาร์: RADARSAT-2 (C band),RADARSAT-2,Fine Quad-Pol,8 m.,,"86,400",N/A,บาท/ภาพ,ราคาในคลัง = Single Look complex; ราคาสั่งถ่าย = Path Image
+เรดาร์: RADARSAT-2 (C band),RADARSAT-2,Wide Fine Quad-Pol,8 m.,,"124,800",N/A,บาท/ภาพ,ราคาในคลัง = Single Look complex; ราคาสั่งถ่าย = Path Image
+เรดาร์: TerraSAR-X (X band),TerraSAR-X,Staring Spotlight (ST),0.25 m.,,"162,630","325,260",บาท/ภาพ,
+เรดาร์: TerraSAR-X (X band),TerraSAR-X,High Res Spotlight (HS),1 m.,,"139,230","278,460",บาท/ภาพ,
+เรดาร์: TerraSAR-X (X band),TerraSAR-X,Spotlight,2 m.,,"99,450","198,900",บาท/ภาพ,
+เรดาร์: TerraSAR-X (X band),TerraSAR-X,StripMap,3 m.,,"69,030","138,060",บาท/ภาพ,
+เรดาร์: TerraSAR-X (X band),TerraSAR-X,ScanSAR,18.5 m.,,"40,950","81,900",บาท/ภาพ,
+เรดาร์: TerraSAR-X (X band),TerraSAR-X,Wide ScanSAR,40 m.,,"40,950","81,900",บาท/ภาพ,
+เรดาร์: COSMO-SkyMed (X band),COSMO-SkyMed,Spotlight-2,1x1 m.,"HH, VV",,"180,000",บาท/ภาพ,ราคาสั่งถ่าย = New Acquisition (ถ่ายใหม่)
+เรดาร์: COSMO-SkyMed (X band),COSMO-SkyMed,StripMap Himage,3 x 3 – 5 x 5 m.,"HH, HV, VH, VV",,"93,000",บาท/ภาพ,ราคาสั่งถ่าย = New Acquisition (ถ่ายใหม่)
+เรดาร์: COSMO-SkyMed (X band),COSMO-SkyMed,StripMap PingPong,10 x 12 – 20 x 20 m.,"2 ช่องสัญญาณ polarimetric: HH,VV หรือ HH,HV หรือ VV,VH",,"68,000",บาท/ภาพ,ราคาสั่งถ่าย = New Acquisition (ถ่ายใหม่)
+เรดาร์: COSMO-SkyMed (X band),COSMO-SkyMed,ScanSAR Wide,14 x 22 – 30 x 30 m.,"HH, HV, VH, VV",,"78,000",บาท/ภาพ,ราคาสั่งถ่าย = New Acquisition (ถ่ายใหม่)
+เรดาร์: COSMO-SkyMed (X band),COSMO-SkyMed,ScanSAR Huge,14 x 38 – 100 x 100 m.,"HH, HV, VH, VV",,"78,000",บาท/ภาพ,ราคาสั่งถ่าย = New Acquisition (ถ่ายใหม่)
+เรดาร์: GaoFen-3 (C band),GaoFen-3,Spotlight (SL),1 m.,"HH, VV","116,400","180,500",บาท/ภาพ,
+เรดาร์: GaoFen-3 (C band),GaoFen-3,Ultra-fine Stripmap (UFS),3 m.,"HH, VV","68,900","118,800",บาท/ภาพ,
+เรดาร์: GaoFen-3 (C band),GaoFen-3,Fine Stripmap (FSI),5 m.,"HH, VV","64,200","95,000",บาท/ภาพ,
+เรดาร์: GaoFen-3 (C band),GaoFen-3,Wide Fine Stripmap (FSII),10 m.,"HH, HV / VV, VH","64,200","90,300",บาท/ภาพ,
+เรดาร์: GaoFen-3 (C band),GaoFen-3,Standard Stripmap (SS),25 m.,"HH, HV / VV, VH","54,700","85,500",บาท/ภาพ,
+เรดาร์: GaoFen-3 (C band),GaoFen-3,Narrow ScanSAR (NSC),50 m.,"HH, HV / VV, VH","32,100","42,800",บาท/ภาพ,
+เรดาร์: GaoFen-3 (C band),GaoFen-3,Wide ScanSAR (WSC),100 m.,"HH, HV / VV, VH","32,100","45,800",บาท/ภาพ,
+เรดาร์: GaoFen-3 (C band),GaoFen-3,Quad-pol Stripmap (QPSI),8 m.,"HH, HV / VV, VH","71,300","137,800",บาท/ภาพ,
+เรดาร์: GaoFen-3 (C band),GaoFen-3,Wide Quad-pol Stripmap (QPSII),25 m.,"HH, HV / VV, VH","71,300","137,800",บาท/ภาพ,
+เรดาร์: GaoFen-3 (C band),GaoFen-3,Wave (WAV),10 m.,"HH, HV / VV, VH","10,700","14,300",บาท/ภาพ,
+เรดาร์: GaoFen-3 (C band),GaoFen-3,Global Observation (GLO),500 m.,"HH, HV / VV, VH","10,700","14,300",บาท/ภาพ,
+เรดาร์: GaoFen-3 (C band),GaoFen-3,Extended Incidence Angle (EXT),25 m.,"HH, HV / VV, VH","42,800","57,000",บาท/ภาพ,

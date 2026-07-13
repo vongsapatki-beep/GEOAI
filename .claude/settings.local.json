@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Write-Output \"VIRTUAL_ENV = $env:VIRTUAL_ENV\"; Write-Output \"--- which python ---\"; \\(Get-Command python\\).Source; Write-Output \"--- version ---\"; python --version)",
+      "PowerShell(& \"d:\\\\GEOAI\\\\.venv\\\\Scripts\\\\Activate.ps1\"; Write-Output \"VIRTUAL_ENV = $env:VIRTUAL_ENV\"; Write-Output \"--- which python ---\"; \\(Get-Command python\\).Source; python --version)",
+      "PowerShell(Write-Output \"VIRTUAL_ENV = $env:VIRTUAL_ENV\"; Write-Output \"CONDA_DEFAULT_ENV = $env:CONDA_DEFAULT_ENV\"; Write-Output \"--- which python ---\"; \\(Get-Command python -ErrorAction SilentlyContinue\\).Source)",
+      "PowerShell(& \"d:\\\\GEOAI\\\\.venv\\\\Scripts\\\\Activate.ps1\"; Write-Output \"VIRTUAL_ENV = $env:VIRTUAL_ENV\"; \\(Get-Command python\\).Source; python --version)",
+      "PowerShell(Write-Output \"=== pwsh \\(PS7\\) ===\"; \\(Get-Command pwsh -ErrorAction SilentlyContinue\\).Source; Write-Output \"=== WindowsPowerShell profile dir ===\"; $d1 = Split-Path $PROFILE.CurrentUserAllHosts -Parent; Write-Output \"$d1 => exists: $\\(Test-Path $d1\\)\"; Write-Output \"=== PS7 profile dir ===\"; $d2 = \"$env:USERPROFILE\\\\Documents\\\\PowerShell\"; Write-Output \"$d2 => exists: $\\(Test-Path $d2\\)\")"
+    ]
+  }
+}
