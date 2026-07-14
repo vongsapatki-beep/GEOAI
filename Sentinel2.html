@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c6ee85f957e42d47c5356c89c089b59d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    <div style="position:fixed;top:12px;left:52px;z-index:9999;background:rgba(255,255,255,.92);padding:8px 12px;border-radius:8px;font:600 14px/1.3 'Segoe UI',Tahoma,sans-serif;color:#222;box-shadow:0 1px 6px rgba(0,0,0,.3)">Sentinel-2 &mdash; ประเทศไทย 2026 (cloud-free median)</div>
+    
+            <div class="folium-map" id="map_c6ee85f957e42d47c5356c89c089b59d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c6ee85f957e42d47c5356c89c089b59d = L.map(
+                "map_c6ee85f957e42d47c5356c89c089b59d",
+                {
+                    center: [13.5, 100.9],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_c6ee85f957e42d47c5356c89c089b59d);
+
+            
+
+        
+    
+            var tile_layer_30fd6a0459fc049ef873dfaa05a421f4 = L.tileLayer(
+                "https://mt1.google.com/vt/lyrs=s\u0026x={x}\u0026y={y}\u0026z={z}",
+                {
+  "minZoom": 0,
+  "maxZoom": 21,
+  "maxNativeZoom": 21,
+  "noWrap": false,
+  "attribution": "Google Satellite",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_30fd6a0459fc049ef873dfaa05a421f4.addTo(map_c6ee85f957e42d47c5356c89c089b59d);
+        
+    
+            var tile_layer_423cbff1f350f3203fed9861bf1da90c = L.tileLayer(
+                "https://earthengine.googleapis.com/v1/projects/vongsapat-ki/maps/d8a6b013da7e58aef1a9c28f14d7a448-d54b2e5badbf318f9655f12233e53a6a/tiles/{z}/{x}/{y}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Google Earth Engine | Copernicus Sentinel-2",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_423cbff1f350f3203fed9861bf1da90c.addTo(map_c6ee85f957e42d47c5356c89c089b59d);
+        
+    
+            var tile_layer_5013022320d7b79c56ed449a428aad03 = L.tileLayer(
+                "https://earthengine.googleapis.com/v1/projects/vongsapat-ki/maps/2551a292aa88f3e8ad27296cb6258ad4-2138e59a22c3d7046b3298bcbbfeddf6/tiles/{z}/{x}/{y}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "FAO GAUL",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5013022320d7b79c56ed449a428aad03.addTo(map_c6ee85f957e42d47c5356c89c089b59d);
+        
+    
+            var layer_control_a57e0d93eaf28c5182a341dc14dc15b3_layers = {
+                base_layers : {
+                    "Google Satellite" : tile_layer_30fd6a0459fc049ef873dfaa05a421f4,
+                },
+                overlays :  {
+                    "Sentinel-2 median 2026 (cloud-free)" : tile_layer_423cbff1f350f3203fed9861bf1da90c,
+                    "Thailand boundary" : tile_layer_5013022320d7b79c56ed449a428aad03,
+                },
+            };
+            let layer_control_a57e0d93eaf28c5182a341dc14dc15b3 = L.control.layers(
+                layer_control_a57e0d93eaf28c5182a341dc14dc15b3_layers.base_layers,
+                layer_control_a57e0d93eaf28c5182a341dc14dc15b3_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_c6ee85f957e42d47c5356c89c089b59d);
+
+        
+</script>
+</html>

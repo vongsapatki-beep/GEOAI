@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sentinel-2 Thailand 2026 (offline tiles)</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<style>
+  html,body{height:100%;margin:0}
+  #map{position:absolute;inset:0}
+  .info-box{position:absolute;top:12px;left:52px;z-index:1000;
+    background:rgba(255,255,255,.92);padding:8px 12px;border-radius:8px;
+    font:600 14px/1.3 "Segoe UI",Tahoma,sans-serif;color:#222;
+    box-shadow:0 1px 6px rgba(0,0,0,.3)}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="info-box">Sentinel-2 &mdash; ประเทศไทย 2026 (cloud-free · offline tiles)</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const map = L.map('map').setView([13.0391, 101.4898], 6);
+
+const gsat = L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
+  {maxZoom:21, attribution:'Google Satellite'}).addTo(map);
+
+const s2 = L.tileLayer('./tiles/{z}/{x}/{y}.png',
+  {maxNativeZoom:11, maxZoom:19, opacity:1.0,
+    bounds:[[5.6131,97.3437],[20.4650,105.6359]],
+    attribution:'Google Earth Engine | Copernicus Sentinel-2'}).addTo(map);
+
+L.control.layers(
+  {'Google Satellite': gsat},
+  {'Sentinel-2 median 2026': s2},
+  {collapsed:false}
+).addTo(map);
+</script>
+</body>
+</html>
