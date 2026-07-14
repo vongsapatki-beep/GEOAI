@@ -79,3 +79,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Large rasters exceeding GitHub's 100 MB per-file limit
+GEE4NRE 20240131-0202/Example/Topo50K50361.tif
